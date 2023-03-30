@@ -14,41 +14,95 @@
 
 <div class="container sticky-top"> <!--Navegação-->
     <nav class="navbar navegacaobg p-3">
-        <a href="" class="navbar-brand logo"><img src="../imgs/DALL_E_2023-03-29_07.33.15-removebg-preview.png" alt=""><span class="text-white">SMART</span><span class="text-warning">METROPOLIS</span>
+        <a href="" class="navbar-brand logo"><img src="../imgs/logosembg.png" alt=""><span class="text-white">SMART</span><span class="text-warning">METROPOLIS</span>
         </a> 
         <ul class="nav nav-pills justify-content-end me-5 p-4 lista">
             <li class="nav-item bg-warning m-1 rounded" >
               <a class="nav-link" href="#home" id="home">HOME</a>
             </li>
             <li class="nav-item bg-warning m-1 rounded" >
-              <a class="nav-link" href="#conteudo1" id="smartC">SMART CITIES</a>
+              <a class="nav-link" href="#definicao" id="smartC">SMART CITIES</a>
             </li>
             <li class="nav-item bg-warning m-1 rounded" >
               <a class="nav-link" href="#problematica" id="aPro">A PROBLEMÁTICA</a>
             </li>
+            <li class="nav-item bg-warning m-1 rounded" >
+                <a class="nav-link" href="#solucao" id="aPro">SOLUÇÃO</a>
+              </li>
           </ul>
     </nav>
     
 </div>
 <div class="main">
-    <div class="row justify-content-center cont1"> <!--CONTEUDO 1, ONDE SERÁ EXPLICADO O QUE É UMA SMART CITY...-->
-        <div class="text-wrap descricao1 col-4">
-            <h1 class="titulo1" id="conteudo1">AS SMART CITIES</h1>
+    <div class="row justify-content-center cont1 p-4" id="definicao"> <!--CONTEUDO 1, ONDE SERÁ EXPLICADO O QUE É UMA SMART CITY...-->
+        <div class="text-wrap descricao1 col-6 p-5 w-50 mt-5 pb-0">
+            <h1>AS SMART CITIES</h1>
            <p>Uma cidade inteligente é uma cidade que utiliza tecnologia avançada e análise de dados para melhorar a qualidade de vida de seus habitantes e aumentar a eficiência dos serviços urbanos. Ela incorpora uma variedade de tecnologias de ponta, como a Internet das Coisas (IoT), inteligência artificial (IA) e análise de big data para otimizar o uso de recursos, melhorar a sustentabilidade e criar um ambiente urbano mais conectado e responsivo. O objetivo de uma cidade inteligente é utilizar a tecnologia para melhorar a qualidade de vida, segurança e bem-estar de seus habitantes, além de aumentar a eficiência e eficácia de serviços públicos como transporte, saúde, gestão de resíduos e consumo de energia.</p>
         </div>
-        <div class="text-wrap col-5">
-            <img src="../imgs/logo.png" alt="">
+        <div class="text-wrap col-4 mt-1 ms-5 p-5 pb-0 h-25">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded">
+                  <div class="carousel-item active">
+                    <img src="../imgs/desc1.png" class="d-block w-100" alt="..." style="height: 456px; width: 456px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imgs/desc1.2.png" class="d-block w-100" alt="..." style="height: 456px; width: 456px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imgs/desc1.3.png" class="d-block w-100" alt="..." style="height: 456px; width: 456px;">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+              </div>
+            <!-- <img src="../imgs/desc1.png" alt="" style="height: 456px; width: 456px;"> -->
         </div>
     </div>
 
-    <div class="d-flex justify-content-center cont2" id="problematica"> <!--CONTEUDO 2, ONDE SERÁ EXPLICADO A PROBLEMÁTICA...-->
-    
+    <div class="row justify-content-center cont2 p-4" id="problematica"> <!--CONTEUDO 2, ONDE SERÁ EXPLICADO A PROBLEMÁTICA...-->
+        <div class="text-wrap col-4 ms-5 mt-1 p-5 pb-0 h-25">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imgs/logo.png" class="d-block w-100" alt="..." style="height: 456px; width: 456px;">
+              </div>
+              <div class="carousel-item">
+                <img src="../imgs/glass0088.png" class="d-block w-100" alt="..." style="height: 456px; width: 456px;">
+              </div>
+              <div class="carousel-item">
+                <img src="../imgs/desc1.png" class="d-block w-100" alt="..." style="height: 456px; width: 456px;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="text-wrap descricao2 col-6 w-50 p-5 mt-5 pb-0">
+            <h1 class="prob">A PROBLEMÁTICA</h1>
+            <p class="probPara">Uma cidade inteligente é uma cidade que utiliza tecnologia avançada e análise de dados para melhorar a qualidade de vida de seus habitantes e aumentar a eficiência dos serviços urbanos. Ela incorpora uma variedade de tecnologias de ponta, como a Internet das Coisas (IoT), inteligência artificial (IA) e análise de big data para otimizar o uso de recursos, melhorar a sustentabilidade e criar um ambiente urbano mais conectado e responsivo. O objetivo de uma cidade inteligente é utilizar a tecnologia para melhorar a qualidade de vida, segurança e bem-estar de seus habitantes, além de aumentar a eficiência e eficácia de serviços públicos como transporte, saúde, gestão de resíduos e consumo de energia.</p>
+        </div>
     </div>
 
-    <div class="d-flex justify-content-center cont3" id="solucao"> <!--CONTEUDO 3, ONDE SERÁ EXPLICADO A SOLUÇÃO...-->
-    
+
+    <div class="row justify-content-center cont3 mt-4" id="solucao"> <!--CONTEUDO 3, ONDE SERÁ EXPLICADO A SOLUÇÃO...-->
     </div>
-</div>
+
 
 
 

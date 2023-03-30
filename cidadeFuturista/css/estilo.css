@@ -2,7 +2,8 @@
     --dourado--:#FBCC1C;
     --azul-escuro--: #031324;
     --azul-claro--: #09294b;
-    --salmao-escuro--: #7C7171;
+    --salmao-claro--: #7C7171;
+    --salmao-escuro--: #231717;
 }
 .body{
     background-color: #031324;
@@ -46,11 +47,11 @@
 }
 .cont2{
     /* height: 4000px; */
-    background-image: linear-gradient(var(--azul-claro--)0%, var(--azul-escuro--));
+    background-image: linear-gradient(var(--azul-escuro--)0%, var(--azul-claro--));
 }
 .descricao1{
-    background-color: var(--salmao-escuro--);
-    position: absolute;
+    background-color: var(--salmao-claro--);
+    /* position: absolute; */
     width: 600px;
     /* height: 780px; */
     left: 306px;
@@ -60,9 +61,26 @@
     border-top: 5px solid rgba(35, 23, 23, 1);
     padding: 20px;
 }
+.descricao2{
+    background-color: var(--salmao-escuro--);
+    /* position: absolute; */
+    width: 600px;
+    /* height: 780px; */
+    left: 306px;
+    top: 165px;
+    /* border-radius: 20px; */
+    border-left: 5px solid var(--salmao-claro--);
+    border-top: 5px solid var(--salmao-claro--);
+    padding: 20px;
+}
+.prob{
+    color:var(--salmao-claro--);
+}
+.probPara{
+    color: var(--salmao-claro--);
+}
 .lista{
     background-color: var(--azul-escuro--);
     border-bottom: 5px solid var(--dourado--);
     border-radius: 5px;
 }
-
